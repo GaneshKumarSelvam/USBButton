@@ -21,7 +21,7 @@ open class MyButton: UIButton {
         }
     }
 
-    override open init(frame: CGRect){
+    override public init(frame: CGRect){
         super.init(frame: frame)
     }
 
