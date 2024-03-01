@@ -21,7 +21,7 @@ open class MyButton: UIButton {
         }
     }
 
-    override public init(frame: CGRect){
+    override open init(frame: CGRect){
         super.init(frame: frame)
     }
 
@@ -29,7 +29,7 @@ open class MyButton: UIButton {
         fatalError("init(coder:) has not been implemented")
     }
 
-    public override func layoutSubviews() {
+    open override func layoutSubviews() {
         super.layoutSubviews()
         setup()
     }
