@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-final class MyUSBButton: UIButton {
+public class MyUSBButton: UIButton {
 
     var borderWidth: CGFloat = 2.0
     var borderColor = UIColor.gray.cgColor
@@ -29,7 +29,7 @@ final class MyUSBButton: UIButton {
         fatalError("init(coder:) has not been implemented")
     }
 
-    override func layoutSubviews() {
+    public override func layoutSubviews() {
         super.layoutSubviews()
         setup()
     }
