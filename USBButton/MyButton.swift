@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-public class MyUSBButton: UIButton {
+public class MyButton: UIButton {
 
     var borderWidth: CGFloat = 2.0
     var borderColor = UIColor.gray.cgColor

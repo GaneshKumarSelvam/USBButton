@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		753AC9D42B91B42100140378 /* USBButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 753AC9D32B91B42100140378 /* USBButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		753AC9DB2B91B47500140378 /* MyUSBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753AC9DA2B91B47500140378 /* MyUSBButton.swift */; };
+		753AC9DB2B91B47500140378 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753AC9DA2B91B47500140378 /* MyButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		753AC9D02B91B42100140378 /* USBButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = USBButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		753AC9D32B91B42100140378 /* USBButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USBButton.h; sourceTree = "<group>"; };
-		753AC9DA2B91B47500140378 /* MyUSBButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyUSBButton.swift; sourceTree = "<group>"; };
+		753AC9DA2B91B47500140378 /* MyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +47,7 @@
 		753AC9D22B91B42100140378 /* USBButton */ = {
 			isa = PBXGroup;
 			children = (
-				753AC9DA2B91B47500140378 /* MyUSBButton.swift */,
+				753AC9DA2B91B47500140378 /* MyButton.swift */,
 				753AC9D32B91B42100140378 /* USBButton.h */,
 			);
 			path = USBButton;
@@ -133,7 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				753AC9DB2B91B47500140378 /* MyUSBButton.swift in Sources */,
+				753AC9DB2B91B47500140378 /* MyButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
