@@ -1,0 +1,11 @@
+framework module USBButton {
+  umbrella header "USBButton.h"
+  export *
+
+  module * { export * }
+}
+
+module USBButton.Swift {
+  header "USBButton-Swift.h"
+  requires objc
+}

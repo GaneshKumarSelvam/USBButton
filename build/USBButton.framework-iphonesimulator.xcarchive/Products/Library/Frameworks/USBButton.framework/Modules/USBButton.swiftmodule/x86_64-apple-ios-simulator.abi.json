@@ -1,0 +1,57 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "USBButton",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "USBButton"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/ganeshkumar\/Documents\/Demos\/USBButton\/USBButton\/USBButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 190,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/ganeshkumar\/Documents\/Demos\/USBButton\/USBButton\/USBButton.swift",
+      "kind": "StringLiteral",
+      "offset": 594,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/ganeshkumar\/Documents\/Demos\/USBButton\/USBButton\/USBButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 781,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ganeshkumar\/Documents\/Demos\/USBButton\/USBButton\/USBButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 820,
+      "length": 2,
+      "value": "10"
+    }
+  ]
+}

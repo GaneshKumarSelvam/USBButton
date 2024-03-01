@@ -1,0 +1,21 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/ganeshkumar/Library/Developer/Xcode/DerivedData/USBButton-enzuwjdonrrfslfnzncchluovtfb/Build/Intermediates.noindex/ArchiveIntermediates/USBButton/InstallationBuildProductsLocation/Library/Frameworks/USBButton.framework/USBButton'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x54964, size: 0x8, addend: 0x0, symName: _USBButtonVersionString, symObjAddr: 0x0, symBinAddr: 0x3BB0, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x54999, size: 0x8, addend: 0x0, symName: _USBButtonVersionNumber, symObjAddr: 0x30, symBinAddr: 0x3BE0, symSize: 0x0 }
+  - { offsetInCU: 0x2B, offset: 0x549DA, size: 0x8, addend: 0x0, symName: '_$s9USBButtonAAC9titleTextSSSgvgTo', symObjAddr: 0x0, symBinAddr: 0x3470, symSize: 0x50 }
+  - { offsetInCU: 0x6D, offset: 0x54A1C, size: 0x8, addend: 0x0, symName: '_$s9USBButtonAAC9titleTextSSSgvgTo', symObjAddr: 0x0, symBinAddr: 0x3470, symSize: 0x50 }
+  - { offsetInCU: 0xAF, offset: 0x54A5E, size: 0x8, addend: 0x0, symName: '_$s9USBButtonAAC9titleTextSSSgvsTo', symObjAddr: 0x50, symBinAddr: 0x34C0, symSize: 0x60 }
+  - { offsetInCU: 0xE1, offset: 0x54A90, size: 0x8, addend: 0x0, symName: '_$s9USBButtonAAC5frameABSo6CGRectV_tcfc', symObjAddr: 0xB0, symBinAddr: 0x3520, symSize: 0x180 }
+  - { offsetInCU: 0x130, offset: 0x54ADF, size: 0x8, addend: 0x0, symName: '_$s9USBButtonAAC5frameABSo6CGRectV_tcfcTo', symObjAddr: 0x230, symBinAddr: 0x36A0, symSize: 0x30 }
+  - { offsetInCU: 0x15B, offset: 0x54B0A, size: 0x8, addend: 0x0, symName: '_$s9USBButtonAAC5coderABSgSo7NSCoderC_tcfcTo', symObjAddr: 0x260, symBinAddr: 0x36D0, symSize: 0x20 }
+  - { offsetInCU: 0x18D, offset: 0x54B3C, size: 0x8, addend: 0x0, symName: '_$s9USBButtonAAC5setupyyF', symObjAddr: 0x280, symBinAddr: 0x36F0, symSize: 0xF0 }
+  - { offsetInCU: 0x1D8, offset: 0x54B87, size: 0x8, addend: 0x0, symName: '_$s9USBButtonAAC14layoutSubviewsyyFTo', symObjAddr: 0x370, symBinAddr: 0x37E0, symSize: 0x60 }
+  - { offsetInCU: 0x20B, offset: 0x54BBA, size: 0x8, addend: 0x0, symName: '_$s9USBButtonAACfD', symObjAddr: 0x3D0, symBinAddr: 0x3840, symSize: 0x30 }
+  - { offsetInCU: 0x256, offset: 0x54C05, size: 0x8, addend: 0x0, symName: '_$s9USBButtonAAC9titleTextSSSgvsTf4gn_n', symObjAddr: 0x4A0, symBinAddr: 0x3910, symSize: 0xD0 }
+  - { offsetInCU: 0x2AA, offset: 0x54C59, size: 0x8, addend: 0x0, symName: '_$s9USBButtonAAC5coderABSgSo7NSCoderC_tcfcTf4dn_n', symObjAddr: 0x570, symBinAddr: 0x39E0, symSize: 0x135 }
+  - { offsetInCU: 0x2D8, offset: 0x54C87, size: 0x8, addend: 0x0, symName: '_$s9USBButtonAACfETo', symObjAddr: 0x400, symBinAddr: 0x3870, symSize: 0x50 }
+  - { offsetInCU: 0x307, offset: 0x54CB6, size: 0x8, addend: 0x0, symName: '_$s9USBButtonAACMa', symObjAddr: 0x450, symBinAddr: 0x38C0, symSize: 0x20 }
+  - { offsetInCU: 0x31B, offset: 0x54CCA, size: 0x8, addend: 0x0, symName: '_$sSo10CGColorRefaMa', symObjAddr: 0x470, symBinAddr: 0x38E0, symSize: 0x30 }
+...
