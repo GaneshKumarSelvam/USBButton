@@ -8,24 +8,24 @@
 import Foundation
 import UIKit
 
-public class MyButton: UIButton {
+open class MyButton: UIButton {
 
-    var borderWidth: CGFloat = 2.0
-    var borderColor = UIColor.gray.cgColor
-    var bgColor: UIColor = .lightGray
+    open var borderWidth: CGFloat = 2.0
+    open var borderColor = UIColor.gray.cgColor
+    open var bgColor: UIColor = .lightGray
 
-    @IBInspectable var titleText: String? {
+    @IBInspectable open var titleText: String? {
         didSet {
             self.setTitle(titleText, for: .normal)
             self.setTitleColor(UIColor.black,for: .normal)
         }
     }
 
-    override init(frame: CGRect){
+    override public init(frame: CGRect){
         super.init(frame: frame)
     }
 
-    required init?(coder: NSCoder) {
+    required public init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 
@@ -34,7 +34,7 @@ public class MyButton: UIButton {
         setup()
     }
 
-    func setup() {
+    open func setup() {
         self.clipsToBounds = true
         self.layer.cornerRadius = 10
         self.layer.borderColor = borderColor
