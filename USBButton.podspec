@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.summary          = 'Custom button Framework using UIKit to be used in SwiftUI'
   spec.source           = { :git => 'https://github.com/GaneshKumarSelvam/USBButton.git', :tag => "#{spec.version}" }
   spec.source_files     = "USBButton/**/*.{h,m}"
-  spec.framework        = 'USBButton.xcframework'
+  spec.vendored_frameworks = 'USBButton.xcframework'
   spec.requires_arc     = true
   spec.platform = :iOS
 end
