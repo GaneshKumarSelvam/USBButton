@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = 'USBButton'
-  spec.version          = '1.0.1'
+  spec.version          = '1.0.2'
   spec.license          = { :type => 'MIT', :text => "MIT License" }
   spec.homepage         = 'https://github.com/GaneshKumarSelvam/USBButton'
   spec.authors          = { 'Ganesh Kumar Selvam' => 'selvamganeshkumar@gmail.com' }
