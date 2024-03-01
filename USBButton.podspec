@@ -10,4 +10,8 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = 'USBButton.xcframework'
   spec.requires_arc     = true
   spec.platform = :iOS
+  spec.ios.deployment_target = '15.0'
+  spec.swift_version = "5.7"
+  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
